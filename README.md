@@ -7,6 +7,6 @@ See INSTALLATION.md for detailed instructions about the webserver setup.
 
 ### Screenshot:
 
-![XSLWIZ in action #1](/Public/res/screenshot1.png)<br>
+![XSLWIZ in action #1](/Public/res/screenshot1.jpg)<br>
 
 Feedback: posta@elettronica.lol
