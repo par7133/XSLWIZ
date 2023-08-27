@@ -1,0 +1,114 @@
+<?php
+
+/**
+ * Copyright 2021, 2024 5 Mode
+ *
+ * This file is part of XSLWIZ.
+ * 
+ * XSLWIZ is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * XSLWIZ is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.  
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with XSLWIZ. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * config.inc
+ * 
+ * XSLWIZ configuration settings.
+ *
+ * @author Daniele Bonini <my25mb@aol.com>
+ * @copyrights (c) 2021, 2024 5 Mode     
+ */
+
+define('DEBUG', true);
+ 
+define('APP_NAME', "Xslwiz");
+define('APP_TITLE', "Xslwiz: everyone its xsl tranformation.");
+
+define('APP_HOST', "yourxslwiz.com");
+define('APP_PATH', "/var/www/yourxslwiz/Public");
+define('APP_PRIVATE_PATH', "/var/www/yourxslwiz/Private");
+define('APP_SCRIPT_PATH', "/var/www/yourxslwiz/Private/scripts");
+define('APP_AJAX_PATH', "/var/www/yourxslwiz/Private/scripts_ajax");
+define('APP_ERROR_PATH', "/var/www/yourxslwiz/Private/error");
+define('APP_DATA_PATH', "/var/www/yourxslwiz/Public/static/xsl-repo");
+define('APP_LICENSE', <<<LICENSETEXT
+Copyright (c) 2016, 2024 5 Mode
+All rights reserved.
+
+This file is part of Xslwiz.
+
+Xslwiz is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Xslwiz is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.  
+
+You should have received a copy of the GNU General Public License
+along with Xslwiz. If not, see <https://www.gnu.org/licenses/>.
+
+https://opensource.org/licenses/GPL-3.0
+LICENSETEXT
+);
+// Default Locale, in two letters format
+define('APP_DEF_LANG', "en-US");
+define('APP_MAX_TOT_FIELDS', 15);
+define('APP_MAX_TOT_REC', 25);
+define('APP_FILE_MAX_SIZE', 1100000);
+
+
+$CONFIG = [
+
+   'DEBUG' => true,
+ 
+   'APP' => [
+      'NAME' => "Xslwiz",
+      'TITLE' => "Xslwiz: everyone its xsl tranformation.",
+      'HOST' => "yourxslwiz.com", 
+      'PATH' => "/var/www/yourxslwiz/Public",
+      'PRIVATE_PATH' => "/var/www/yourxslwiz/Private", 
+      'SCRIPT_PATH' => "/var/www/yourxslwiz/Private/scripts",
+      'AJAX_PATH' => "/var/www/yourxslwiz/Private/scripts_ajax",
+      'ERROR_PATH' => "/var/www/yourxslwiz/Private/error",
+      'DATA_PATH' => "/var/www/yourxslwiz/Public/static/xsl-repo",
+      'LICENSE' => <<<LICENSETEXT
+Copyright (c) 2016, 2024 5 Mode
+All rights reserved.
+
+This file is part of Xslwiz.
+
+Xslwiz is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Xslwiz is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.  
+
+You should have received a copy of the GNU General Public License
+along with Xslwiz. If not, see <https://www.gnu.org/licenses/>.
+
+https://opensource.org/licenses/GPL-3.0 
+LICENSETEXT
+             ,
+      'DEF_LANG' => "en-US",
+      'MAX_TOT_FIELDS' => 15,       
+      'MAX_TOT_REC' => 25, 
+      'FILE_MAX_SIZE' => 1100000   
+
+      ]
+    
+    ];  
+
