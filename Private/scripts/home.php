@@ -1351,7 +1351,7 @@ if ($iPage === 5) {
                       <div style="float:right; position:relative; top:-0px; height:38px; font-size:24px; font-weight:900; padding-right:10px;">SELECT&nbsp;&nbsp;&nbsp;</div><br>
                     </td> 
                    <td align="left" style="width:152px;padding-top:4px;border:0px solid black;">
-                     <select id="cbPreSelField" name="cbPreSelField" onchange="$('#PRE_SEL_FIELD').val($(this).val());" style="width:150px;background-color: #c0c0c0; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;">    
+                     <select id="cbPreSelField" name="cbPreSelField" onchange="$('#PRE_SEL_FIELD').val($(this).val());" style="width:150px;background-color: #FFFFFF; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;">    
                        <?PHP 
           $s = $defField;
           $adefField = explode("&", $s);             
@@ -1362,7 +1362,7 @@ if ($iPage === 5) {
                      </select> <br> 
                     </td> 
                    <td align="left" style="width:162px;padding-top:4px;border:0px solid black;">
-                     <select id="cbPreSelMethod" name="cbPreSelMethod" onchange="$('#PRE_SEL_METHOD').val($(this).val());" style="width:150px;background-color: #c0c0c0; margin-left:6px; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;">    
+                     <select id="cbPreSelMethod" name="cbPreSelMethod" onchange="$('#PRE_SEL_METHOD').val($(this).val());" style="width:150px;background-color: #FFFFFF; margin-left:6px; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;">    
                         <option value="equal" <?PHP echo(($preSelMethod === "equal")?"selected":"");?>>=&nbsp;equal</option>
                         <option value="bigger" <?PHP echo(($preSelMethod === "bigger")?"selected":"");?>>&gt;&nbsp;bigger</option>
                         <option value="smaller" <?PHP echo(($preSelMethod === "smaller")?"selected":"");?>>&lt;&nbsp;smaller</option>
@@ -1440,7 +1440,7 @@ if ($iPage === 5) {
                       <div style="float:right; position:relative; top:-0px; height:38px; font-size:24px; font-weight:900; padding-right:10px;">ORDER&nbsp;&nbsp;&nbsp;</div><br>
                     </td> 
                    <td align="left" style="width:152px;padding-top:15px;border:0px solid black;">
-                     <select id="cbPreOrdField" name="cbPreOrdField" style="width:150px;background-color: #c0c0c0; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;">    
+                     <select id="cbPreOrdField" name="cbPreOrdField" style="width:150px;background-color: #FFFFFF; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;">    
                        <?PHP 
           $s = $defField;
           $adefField = explode("&", $s);             
@@ -1452,13 +1452,13 @@ if ($iPage === 5) {
                      </select> <br> 
                     </td> 
                    <td align="left" style="width:162px;padding-top:15px;border:0px solid black;">
-                     <select id="cbPreOrdFieldType" name="cbPreOrdFieldType" style="width:150px;background-color: #c0c0c0; margin-left:6px; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;" onchange="$('#PRE_ORD_FIELDTYPE').val($(this).val());">    
+                     <select id="cbPreOrdFieldType" name="cbPreOrdFieldType" style="width:150px;background-color: #FFFFFF; margin-left:6px; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;" onchange="$('#PRE_ORD_FIELDTYPE').val($(this).val());">    
                         <option value="text" <?PHP echo(($preOrdFieldType === "text")?"selected":"");?>>&nbsp;text</option>
                         <option value="number" <?PHP echo(($preOrdFieldType === "number")?"selected":"");?>>&nbsp;number</option>
                       </select> <br> 
                    </td> 
                   <td align="left" style="width:162px;padding-top:15px;border:0px solid black;">
-                     <select id="cbPreOrdDir" name="cbPreOrdDir" style="width:148px;background-color: #c0c0c0; margin-left:0px; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;" onchange="$('#PRE_ORD_DIR').val($(this).val());">    
+                     <select id="cbPreOrdDir" name="cbPreOrdDir" style="width:148px;background-color: #FFFFFF; margin-left:0px; font-size:24px; border: 3px solid dodgerblue; border-radius: 5px;" onchange="$('#PRE_ORD_DIR').val($(this).val());">    
                         <option value="asc" <?PHP echo(($preOrdDir === "asc")?"selected":"");?>>&nbsp;asc</option>
                         <option value="desc" <?PHP echo(($preOrdDir === "desc")?"selected":"");?>>&nbsp;desc</option>
                       </select> <br> 
