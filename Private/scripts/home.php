@@ -1595,6 +1595,11 @@ if ($iPage === 5) {
   <div id="footer">
  <span style="background:#FFFFFF; opacity:0.7;">&nbsp;&nbsp; <a href="dd.html" class="aaa">Disclaimers</a>. A <a href="http://5mode.com" class="aaa">5 Mode</a> project and <a href="http://demo.5mode.com" class="aaa">WYSIWYG</a> system. Some rights reserved.</span>
   </div>  
-  
+
+<!-- METRICS CODE -->
+<?php if (file_exists(APP_PATH . DIRECTORY_SEPARATOR . "metrics.html")): ?>
+<?php include(APP_PATH . DIRECTORY_SEPARATOR . "metrics.html"); ?> 
+<?php endif; ?>
+	      
 </body>
 </html>
