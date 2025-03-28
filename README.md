@@ -9,4 +9,4 @@ See INSTALLATION.md for detailed instructions about the webserver setup.
 
 ![XSLWIZ in action #1](/Public/res/screenshot2.jpg)<br>
 
-Feedback: posta@elettronica.lol
+Feedback: <a href="mailto:code@gaox.io">code@gaox.io</a>
