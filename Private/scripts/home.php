@@ -185,8 +185,8 @@ for ($i=0; $i<$defRecTot; $i++) {
     }
     $adefFieldVal[$i] = $adefFieldVal[$i] . "$sID&";
     $adefFieldVal[$i] = $adefFieldVal[$i] . "Daniele Bonini&";
-    $adefFieldVal[$i] = $adefFieldVal[$i] . "5 Mode&";
-    $adefFieldVal[$i] = $adefFieldVal[$i] . "http://5mode&";
+    $adefFieldVal[$i] = $adefFieldVal[$i] . "NuMode&";
+    $adefFieldVal[$i] = $adefFieldVal[$i] . "http://numode.eu&";
     for ($z=4; $z<(APP_MAX_TOT_FIELDS-1);$z++) {
       $adefFieldVal[$i] = $adefFieldVal[$i] . "&";
     }  
@@ -321,8 +321,8 @@ for($irec=0;$irec<$defRecTot;$irec++) {
     }   
     $aItem[0] = ['ID', "text", $sItemId];
     $aItem[1] = ['NAME', "text", "Daniele Bonini"];
-    $aItem[2] = ['BUSINESS', "text", "5 Mode"];
-    $aItem[3] = ['URL', "text", "http://5mode.com"];
+    $aItem[2] = ['BUSINESS', "text", "NuMode"];
+    $aItem[3] = ['URL', "text", "http://numode.eu"];
     for($z=4;$z<(APP_MAX_TOT_FIELDS-1);$z++) {
       $aField = ["Field".$z, "text", PHP_STR];
       $aItem[$z] = $aField; 
@@ -657,9 +657,9 @@ if ($iPage === 5) {
   <link rel="shortcut icon" href="/favicon.ico" />
 
   <meta name="description" content="Welcome to Xslwiz!"/>
-  <meta name="keywords" content="xlswiz,xsl,generator,on,premise,solution"/>
+  <meta name="keywords" content="xlswiz,xsl,generator,on,premise,solution,NuMode"/>
   <meta name="robots" content="index,follow"/>
-  <meta name="author" content="5 Mode"/>
+  <meta name="author" content="NuMode"/>
   
   <script src="/js/jquery-3.6.0.min.js" type="text/javascript"></script>
   <script src="/js/bootstrap.min.js" type="text/javascript"></script> 
