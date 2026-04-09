@@ -14,4 +14,4 @@ To help please donate by clicking <a href="https://gaox.io/l/dona1">https://gaox
 
 ![XSLWIZ in action #1](/Public/res/screenshot2.jpg)<br>
 
-Feedback: <a href="mailto:code@gaox.eu">code@gaox.eu</a>
+Feedback: <a href="mailto:code@gaox.io">code@gaox.io</a>
